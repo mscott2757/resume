@@ -1,0 +1,80 @@
+\documentclass{resume_sty}
+\pagenumbering{gobble}
+\renewcommand{\labelitemi}{$\cdot$}
+\setlength{\parindent}{0pt}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\setitemize{leftmargin=16pt, topsep=5pt, itemsep=-0.3em}
+\begin{document}
+
+\name{Mason Chan Scott}
+\begin{center}
+\contact{mscott2757@berkeley.edu}{(562)-322-0411}\\
+\links{https://github.com/mscott2757}{github.com/mscott2757}{https://www.linkedin.com/in/mason-chan-scott}{linkedin.com/in/mason-chan-scott}
+\end{center}
+
+\section{Education}
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
+\textbf{University of California, Berkeley} & Expected Dec. 2017\\
+B.A. in Computer Science
+\end{tabular*}
+
+\begin{tabular}{L{3.5cm} l l l}
+Major Coursework: & Data Structures & Software Engineering & Databases (Inp.)\\
+& Machine Structures & Artificial Intelligence & Algorithms (Inp.)\\
+GPA 3.32 & Discrete Math $\&$ Probability & Linear Algebra & Security (Inp.)\\
+\end{tabular}
+\section{Technical Skills}
+\begin{tabular}{L{4.8cm} l}
+\textbf{Programming Languages} & Python, Java, C, Ruby, JavaScript, SQL, \LaTeX\\
+\textbf{Web Development} & HTML, CSS, Ruby on Rails, jQuery\\
+\textbf{Systems} & Linux, Unix, Mac OS X\\
+\end{tabular}
+
+\section{Work Experience}
+\experiencetitle{SafeSpace}{May 2016--Aug. 2016}{Web Developer}{Rails}
+\begin{itemize}
+\item Built a real-time anonymous chat platform that matches UC Berkeley students to promote peer support
+\item Redesigned web UI and implemented real-time dynamic system for peer counselor intervention with AJAX
+\end{itemize}
+
+\experiencetitle{SmileyGo}{Mar. 2016--May 2016}{Software Engineering Intern}{Rails}
+\begin{itemize}
+\item Worked full-stack to design and implement a scalable web UI for corporations to review and endorse nonprofits
+\item Improved matching of corporations and nonprofits by developing UI to aggregate nonprofits based on rating and category
+\end{itemize}
+
+\experiencetitle{SRI International, Richard Ivry Lab}{Feb. 2016--May 2016}{Research Assistant}{C, Python}
+\begin{itemize}
+\item Built and tested computational models of neural networks to study how neural systems drive skilled behavior
+\item Developed API to analyze experimental data using the Python Numpy and Matplotlib libraries
+\item Optimized performance by parallelizing computational models using OpenMP and Intel SIMD extensions
+\end{itemize}
+
+\experiencetitle{Computer Science Mentors}{Aug. 2016--Present}{Mentor}{Java}
+\begin{itemize}
+\item Created course materials and taught weekly discussion section for Data Structures course
+\end{itemize}
+
+\experiencetitle{Computer Science Department, UC Berkeley}{Aug. 2015--Dec. 2015}{Lab Assistant}{Python, Java, Scheme}
+\begin{itemize}
+\item Assisted students during lab and office hours for Introduction to Computer Science and Data Structures courses
+\end{itemize}
+
+\section{Projects}
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
+\textbf{Secure File Store} (\textit{Python})& Oct. 2016\\
+\end{tabular*}
+\begin{itemize}
+\item Designed and built a file storage client that supports secure sharing of files between users
+\item Ensured confidentiality and integrity of files over an insecure server using cryptographic tools in the PyCrypto API
+\end{itemize}
+
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
+\textbf{Classification} (\textit{Python}) & July 2016\\
+\end{tabular*}
+\begin{itemize}
+\item Extracted text from image sources using neural network classifiers and the perceptron and gradient descent algorithms
+\item Improved accuracy of classification by extracting hand-designed features from the dataset
+\item Trained a convolutional neural network to learn better features using the TensorFlow API
+\end{itemize}
+\end{document}
