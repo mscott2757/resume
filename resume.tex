@@ -1,7 +1,10 @@
-\documentclass{resume_sty}
+\documentclass{resume}
 \pagenumbering{gobble}
+\usepackage[default]{lato}
+\renewcommand{\mddefault}{l}
 \renewcommand{\labelitemi}{$\cdot$}
 \setlength{\parindent}{0pt}
+\setlength{\textfloatsep}{0.1cm}
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \setitemize{leftmargin=16pt, topsep=5pt, itemsep=-0.3em}
 \begin{document}
@@ -14,67 +17,80 @@
 
 \section{Education}
 \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
-\textbf{University of California, Berkeley} & Expected Dec. 2017\\
-B.A. in Computer Science
+\textbf{University of California, Berkeley} & Expected May 2018\\
+B.A. in Computer Science & GPA 3.32\\
+Activies: Computer Science Mentors, Innovative Design & \\
 \end{tabular*}
-
-\begin{tabular}{L{3.5cm} l l l}
-Major Coursework: & Data Structures & Software Engineering & Databases (Inp.)\\
-& Machine Structures & Artificial Intelligence & Algorithms (Inp.)\\
-GPA 3.32 & Discrete Math $\&$ Probability & Linear Algebra & Security (Inp.)\\
-\end{tabular}
-\section{Technical Skills}
-\begin{tabular}{L{4.8cm} l}
-\textbf{Programming Languages} & Python, Java, C, Ruby, JavaScript, SQL, \LaTeX\\
-\textbf{Web Development} & HTML, CSS, Ruby on Rails, jQuery\\
-\textbf{Systems} & Linux, Unix, Mac OS X\\
+\newline
+\vspace*{0.1cm}
+\newline
+\begin{tabular}{L{3.1cm} l l l}
+Major Coursework: & Data Structures (61B) & Software Engineering (169) & Algorithms (170)\\
+& Computer Architecture (61C) & Artificial Intelligence (188) & Security (161)\\
+& Discrete Math (70) & Databases (186) & Operating Systems (162)\\
 \end{tabular}
 
 \section{Work Experience}
-\experiencetitle{SafeSpace}{May 2016--Aug. 2016}{Web Developer}{Rails}
+\experiencetitle{SafeSpace}{May 2016--Aug. 2016}{Web Developer}
 \begin{itemize}
-\item Built a real-time anonymous chat platform that matches UC Berkeley students to promote peer support
-\item Redesigned web UI and implemented real-time dynamic system for peer counselor intervention with AJAX
+\item Built a real-time anonymous chat platform that matches UC Berkeley students to promote peer support using Rails
+\item Redesigned web interface and implemented real-time dynamic system for peer counselor intervention with AJAX
 \end{itemize}
 
-\experiencetitle{SmileyGo}{Mar. 2016--May 2016}{Software Engineering Intern}{Rails}
+\experiencetitle{SmileyGo}{Mar. 2016--May 2016}{Software Engineering Intern}
 \begin{itemize}
-\item Worked full-stack to design and implement a scalable web UI for corporations to review and endorse nonprofits
+\item Worked full-stack to design and implement a scalable web interface for corporations to review and endorse nonprofits
 \item Improved matching of corporations and nonprofits by developing UI to aggregate nonprofits based on rating and category
 \end{itemize}
 
-\experiencetitle{SRI International, Richard Ivry Lab}{Feb. 2016--May 2016}{Research Assistant}{C, Python}
+\experiencetitle{SRI International, Richard Ivry Lab}{Feb. 2016--May 2016}{Research Assistant}
 \begin{itemize}
-\item Built and tested computational models of neural networks to study how neural systems drive skilled behavior
+\item Built and tested computational models of neural networks in C to study how neural systems drive skilled behavior
 \item Developed API to analyze experimental data using the Python Numpy and Matplotlib libraries
 \item Optimized performance by parallelizing computational models using OpenMP and Intel SIMD extensions
 \end{itemize}
 
-\experiencetitle{Computer Science Mentors}{Aug. 2016--Present}{Mentor}{Java}
+\experiencetitle{YHWH Apparel}{Nov. 2015--Present}{Web Developer}
+\begin{itemize}
+\item Worked full-stack to design and implement an e-commerce web application for a student-run philanthropic clothing company
+\item Redesigned storefront and migrated site from Storenvy to Rails to provide a more seamless user experience
+\end{itemize}
+\experiencetitle{Computer Science Mentors}{Sept. 2016--Present}{Mentor}
 \begin{itemize}
 \item Created course materials and taught weekly discussion section for Data Structures course
 \end{itemize}
-
-\experiencetitle{Computer Science Department, UC Berkeley}{Aug. 2015--Dec. 2015}{Lab Assistant}{Python, Java, Scheme}
-\begin{itemize}
-\item Assisted students during lab and office hours for Introduction to Computer Science and Data Structures courses
-\end{itemize}
-
+\experiencetitle{Computer Science Department, UC Berkeley}{Aug. 2015--Dec. 2015}{Lab Assistant}
+\vspace*{-0.5cm}
 \section{Projects}
 \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
-\textbf{Secure File Store} (\textit{Python})& Oct. 2016\\
+\textbf{Scheduler} & Jan. 2017--present\\
 \end{tabular*}
 \begin{itemize}
-\item Designed and built a file storage client that supports secure sharing of files between users
+\item A tutoring interface, which links students and mentors together to engage in group tutoring built with Rails
+\item Provides service to 670+ students and 120+ mentors for introductory computer science classes at UC Berkeley
+\end{itemize}
+
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
+\textbf{Secure File Store} & Oct. 2016\\
+\end{tabular*}
+\begin{itemize}
+\item Designed and built a file storage client in Python that supports secure sharing of files between users
 \item Ensured confidentiality and integrity of files over an insecure server using cryptographic tools in the PyCrypto API
 \end{itemize}
 
 \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
-\textbf{Classification} (\textit{Python}) & July 2016\\
+\textbf{Relational Database} & Oct. 2016--Dec. 2016\\
 \end{tabular*}
 \begin{itemize}
-\item Extracted text from image sources using neural network classifiers and the perceptron and gradient descent algorithms
-\item Improved accuracy of classification by extracting hand-designed features from the dataset
-\item Trained a convolutional neural network to learn better features using the TensorFlow API
+\item A fixed length record relational database built in Java that users communicate with via SQL-like query language
+\item Implemented support for join queries using various join algorithms and cost-based query optimization
+\item Integrated concurreny control by implementing table-level locking and deadlock prevention
 \end{itemize}
+
+\section{Technical Skills}
+\begin{tabular}{L{4.8cm} l}
+\textbf{Programming Languages} & Java (5/5),  Python (4/5), C (3/5), Ruby (3/5), SQL (2/5)\\
+\textbf{Web Development} & HTML (4/5), CSS (4/5), Ruby on Rails (4/5), Django (1/5), jQuery (3/5), JavaScript (1/5)\\
+\textbf{Software} & Git (5/5), Vim (3/5), LaTeX (2/5)\\
+\end{tabular}
 \end{document}
