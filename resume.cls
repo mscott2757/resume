@@ -27,9 +27,10 @@
   \subsection[#1]{#1 \hfill #2}%
 }
 
-\newcommand{\experiencetitle}[3]{
+\newcommand{\experiencetitle}[4]{
   \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
-    \textbf{#1} \textit{#3} & #2
+    \textbf{#3} & #2\\
+    #1 -- #4
   \end{tabular*}
 }
 
