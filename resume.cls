@@ -47,6 +47,6 @@
 
 \RequirePackage[margin=0.5in]{geometry}
 
-\newcommand{\links}[4]{
-  \href{#1}{#2} {\large\textperiodcentered} \href{#3}{#4}
+\newcommand{\links}[6]{
+  \href{#1}{#2} {\large\textperiodcentered} \href{#3}{#4} {\large\textperiodcentered} \href{#5}{#6}
 }
