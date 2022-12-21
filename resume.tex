@@ -1,6 +1,7 @@
 \documentclass{resume}
 \pagenumbering{gobble}
-\usepackage[default]{lato}
+\usepackage{fontspec}
+\setmainfont{Avenir}
 \renewcommand{\mddefault}{l}
 \renewcommand{\labelitemi}{$\cdot$}
 \setlength{\parindent}{0pt}
@@ -17,9 +18,10 @@
 
 \section{Education}
 \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
-\textbf{University of California, Berkeley} & Expected May 2018\\
-B.A. in Computer Science & \\
+\textbf{University of California, Berkeley} & May 2018\\
+B.A. Computer Science & \\
 \end{tabular*}
+
 \begin{tabular}{L{3.1cm} l l l}
 Major Coursework: & Data Structures (61B) & Software Engineering (169) & Algorithms (170)\\
 & Computer Architecture (61C) & Artificial Intelligence (188) & Security (161)\\
@@ -29,6 +31,7 @@ Major Coursework: & Data Structures (61B) & Software Engineering (169) & Algorit
 \section{Technical Skills}
 \begin{tabular}{L{4.8cm} l}
 \textbf{Programming Languages} & Java,  Python, C, Ruby, SQL, JavaScript\\
+\\[-1em]
 \textbf{Web Development} & HTML, CSS, Ruby on Rails, jQuery, React\\
 \end{tabular}
 
@@ -56,12 +59,6 @@ Major Coursework: & Data Structures (61B) & Software Engineering (169) & Algorit
 \item Redesigned web interface and implemented a real-time dynamic system for peer counselor intervention
 \end{itemize}
 
-% \experiencetitle{SmileyGo}{Mar. '16--May '16}{Software Engineering Intern}{Berkeley, CA}
-% \begin{itemize}
-% \item Worked full-stack to design and implement a scalable web interface for corporations to review and endorse nonprofits
-% \item Improved matching of corporations and nonprofits by developing UI to aggregate nonprofits based on rating and category
-% \end{itemize}
-
 \experiencetitle{SRI International}{Feb. '16--May '16}{Research Assistant}{Berkeley, CA}
 \begin{itemize}
 \item Built and tested computational models of neural networks in C to study how neural systems drive skilled behavior
@@ -77,21 +74,6 @@ Major Coursework: & Data Structures (61B) & Software Engineering (169) & Algorit
 \begin{itemize}
 \item Designed and built a file storage client in Python that supports secure sharing of files between users
 \item Ensured confidentiality and integrity of files over an insecure server using cryptographic tools in the PyCrypto API
-\end{itemize}
-
-\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
-\textbf{SmileyGo Website} & March '16--May '16\\
-\end{tabular*}
-\begin{itemize}
-\item SmileyGo is a platform that aims to empower corporations to give smarter by managing their grants and sponsorships
-\item Worked full-stack to design and implement a web interface for corporations to review and endorse nonprofits
-\end{itemize}
-
-\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
-\textbf{Scheme Interpreter} & April '15\\
-\end{tabular*}
-\begin{itemize}
-\item Developed an interactive interpreter for a subset of the Scheme language using Python
 \end{itemize}
 
 \end{document}
