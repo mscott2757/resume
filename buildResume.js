@@ -4,8 +4,8 @@ const path = require("path");
 const fs = require("fs");
 
 const transforms = {
-  workExperience: (content) => {
-    const experiences = content.workExperience.map(
+  workExperience: (data) => {
+    const experiences = data.map(
       ({ name, startDate, endDate, location, title, items }) => {
         const lines = [
           `\\experiencetitle{${name}}{${startDate}--${endDate}}{${title}}{${location}}`,
@@ -32,7 +32,7 @@ const main = async () => {
   const content = JSON.parse(fs.readFileSync(path.join(__dirname, 'content.json')))
 
   for (const [key, genContent] of Object.entries(transforms)) {
-    template = template.replace(`{{${key}}}`, genContent(content));
+    template = template.replace(`{{${key}}}`, genContent(content[key]));
   }
 
   fs.writeFileSync(path.join(__dirname, "resume.tex"), template);
