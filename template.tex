@@ -1,0 +1,45 @@
+\documentclass{resume}
+\pagenumbering{gobble}
+\usepackage{fontspec}
+\setmainfont{Avenir}
+\renewcommand{\mddefault}{l}
+\renewcommand{\labelitemi}{$\cdot$}
+\setlength{\parindent}{0pt}
+\setlength{\textfloatsep}{0.1cm}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\setitemize{leftmargin=16pt, topsep=5pt, itemsep=-0.3em}
+\begin{document}
+
+\name{Mason Chan Scott}
+\begin{center}
+\contact{mscott2757@gmail.com}{(562)-322-0411}\\
+\links{https://github.com/mscott2757}{github.com/mscott2757}{https://www.linkedin.com/in/mason-chan-scott}{linkedin.com/in/mason-chan-scott}
+\end{center}
+
+\section{Education}
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
+\textbf{University of California, Berkeley} & Dec. 2017\\
+B.A. Computer Science & \\
+\end{tabular*}
+
+\section{Work Experience}
+{{workExperience}}
+
+\section{Technical Skills}
+\begin{tabular}{L{4.8cm} l}
+\textbf{Programming Languages} & Java,  Python, C, Ruby, SQL, JavaScript\\
+\\[-1em]
+\textbf{Web Development} & HTML, CSS, Ruby on Rails, jQuery, React\\
+\end{tabular}
+
+\section{Projects}
+
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
+\textbf{Secure File Storage Client} & Oct. '16\\
+\end{tabular*}
+\begin{itemize}
+\item Designed and built a file storage client in Python that supports secure sharing of files between users
+\item Ensured confidentiality and integrity of files over an insecure server using cryptographic tools in the PyCrypto API
+\end{itemize}
+
+\end{document}

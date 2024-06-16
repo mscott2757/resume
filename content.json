@@ -1,0 +1,16 @@
+{
+  "workExperience": [
+    {
+      "name": "PowerReviews",
+      "startDate": "May '17",
+      "endDate": "Aug '17",
+      "location": "Chicago, IL",
+      "title": "Software Eningeering Intern",
+      "items": [
+        "Built a dashboard to display 200+ automated tests over various build environments for team of 50+ engineers",
+        "Developed UI layout based on mockups created by product designers using React",
+        "Implemented backend with Rails and fetched test data using the Jenkins API"
+      ]
+    }
+  ]
+}

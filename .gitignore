@@ -2,3 +2,4 @@ resume.out
 resume.aux
 resume.log
 resume.pdf
+node_modules/*
