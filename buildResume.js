@@ -4,6 +4,7 @@ const path = require("path");
 const fs = require("fs");
 
 const transforms = {
+  nameTitle: (data) => `\\name{${data}}`,
   workExperience: (data) => {
     const experiences = data.map(
       ({ name, startDate, endDate, location, title, items }) => {
