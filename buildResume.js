@@ -8,7 +8,7 @@ const transforms = {
     const experiences = data.map(
       ({ name, startDate, endDate, location, title, items }) => {
         const lines = [
-          `\\experiencetitle{${name}}{${startDate}--${endDate}}{${title}}{${location}}`,
+          `\\experiencetitle{${name}}{${startDate} -- ${endDate}}{${title}}{${location}}`,
           "\\begin{itemize}",
           ...items.map((item) => `\\item ${item}`),
           "\\end{itemize}",
@@ -36,7 +36,7 @@ const main = async () => {
   }
 
   fs.writeFileSync(path.join(__dirname, "resume.tex"), template);
-  await exec("xelatex resume.tex");
+  await exec("xelatex resume.tex && open resume.pdf");
   await exec('rm resume.tex && open resume.pdf');
 };
 

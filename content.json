@@ -1,15 +1,27 @@
 {
   "workExperience": [
     {
+      "name": "Mercari",
+      "startDate": "July 2018",
+      "endDate": "Present",
+      "location": "Palo Alto, CA",
+      "title": "Software Engineer",
+      "items": [
+        "TBD",
+        "TBD",
+        "TBD"
+      ]
+    },
+    {
       "name": "PowerReviews",
-      "startDate": "May '17",
-      "endDate": "Aug '17",
+      "startDate": "May",
+      "endDate": "August 2017",
       "location": "Chicago, IL",
       "title": "Software Eningeering Intern",
       "items": [
-        "Built a dashboard to display 200+ automated tests over various build environments for team of 50+ engineers",
-        "Developed UI layout based on mockups created by product designers using React",
-        "Implemented backend with Rails and fetched test data using the Jenkins API"
+        "Built a dashboard to display the status of 200+ automated tests running on various build environments for a team of 50+ engineers",
+        "Developed web frontend with React using mockups created by product designers",
+        "Implemented the web server with Rails and fetched test data using the Jenkins API"
       ]
     }
   ]

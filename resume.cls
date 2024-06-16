@@ -30,6 +30,7 @@
 \newcommand{\experiencetitle}[4]{
   \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
     \textbf{#3} & #2\\
+    \\[-1em]
     #1 -- #4
   \end{tabular*}
 }
