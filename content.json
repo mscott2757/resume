@@ -7,11 +7,7 @@
       "endDate": "Present",
       "location": "Palo Alto, CA",
       "title": "Software Engineer",
-      "items": [
-        "TBD",
-        "TBD",
-        "TBD"
-      ]
+      "items": ["TBD", "TBD", "TBD"]
     },
     {
       "name": "PowerReviews",
@@ -24,6 +20,16 @@
         "Developed web frontend with React using mockups created by product designers",
         "Implemented the web server with Rails and fetched test data using the Jenkins API"
       ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "items": ["Java", "Python", "C", "Ruby", "SQL", "JavaScript"]
+    },
+    {
+      "name": "Web Development",
+      "items": ["HTML", "CSS", "Ruby on Rails", "jQuery", "React"]
     }
   ]
 }
