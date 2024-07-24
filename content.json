@@ -8,7 +8,7 @@
       "location": "Palo Alto, CA",
       "title": "Senior Software Engineer",
       "items": [
-        "Fast and high-quality execution on various cross-functional projects impacting key user flows and a top contributor on the web platform team",
+        "Fast and high-quality execution on various cross-functional projects impacting key user flows on the web platform team",
         "Develop and maintain a Design System library with 30+ components used in all web applications creating a common language between Engineering and Design reducing dev cost and improving UI consistency",
         "Create and drive team-wide initiatives to re-architect key user flows in the codebase to improve maintainability and reduce dev cost for new features"
       ]
@@ -20,9 +20,9 @@
       "location": "Palo Alto, CA",
       "title": "Software Engineer",
       "items": [
-        "Develop high impact features for a C2C marketplace on a web platform built with Next JS and React using GraphQL to connect to backend microservices",
-        "Contribute to the 20+ page migration from a legacy PHP app to a modern web stack resulting in improved maintainability and increased team velocity",
-        "Build out E2E test coverage of critical user flows with Cypress"
+        "Developed high impact features for a C2C marketplace on a web platform built with Next JS and React using GraphQL to connect to backend microservices",
+        "Contributed to the 20+ page migration from a legacy PHP app to a modern web stack resulting in improved maintainability and increased team velocity",
+        "Built out E2E test coverage of critical user flows with Cypress"
       ]
     },
     {
