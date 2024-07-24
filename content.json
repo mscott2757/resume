@@ -3,11 +3,27 @@
   "workExperience": [
     {
       "name": "Mercari",
+      "startDate": "Jan. 2023",
+      "endDate": "Current",
+      "location": "Palo Alto, CA",
+      "title": "Senior Software Engineer",
+      "items": [
+        "Fast and high-quality execution on various cross-functional projects impacting key user flows and a top contributor on the web platform team",
+        "Develop and maintain a Design System library with 30+ components used in all web applications creating a common language between Engineering and Design reducing dev cost and improving UI consistency",
+        "Create and drive team-wide initiatives to re-architect key user flows in the codebase to improve maintainability and reduce dev cost for new features"
+      ]
+    },
+    {
+      "name": "Mercari",
       "startDate": "July 2018",
-      "endDate": "Present",
+      "endDate": "Jan. 2023",
       "location": "Palo Alto, CA",
       "title": "Software Engineer",
-      "items": ["TBD", "TBD", "TBD"]
+      "items": [
+        "Develop high impact features for a C2C marketplace on a web platform built with Next JS and React using GraphQL to connect to backend microservices",
+        "Contribute to the 20+ page migration from a legacy PHP app to a modern web stack resulting in improved maintainability and increased team velocity",
+        "Build out E2E test coverage of critical user flows with Cypress"
+      ]
     },
     {
       "name": "PowerReviews",
@@ -22,14 +38,65 @@
       ]
     }
   ],
-  "skills": [
+  "projects": [
     {
-      "name": "Programming Languages",
-      "items": ["Java", "Python", "C", "Ruby", "SQL", "JavaScript"]
+      "name": "Local News Project",
+      "date": "April 2020",
+      "items": [
+        "Build web frontend in React for users to view local news articles from online publications with a focus on Public Health using Google Location APIs and a backend REST API",
+        "Maintain a moderation platform used to validate news articles crawled by the ML model"
+      ]
     },
     {
-      "name": "Web Development",
-      "items": ["HTML", "CSS", "Ruby on Rails", "jQuery", "React"]
+      "name": "Personal Photo Portfolio",
+      "link": {
+        "href": "https://photo.masonchan.co/current",
+        "name": "photo.masonchan.co"
+      },
+      "date": "Jan. 2018",
+      "items": [
+        "Developed a photo gallery web application to display photographic work using React and Redux",
+        "built out backend in Node and Express to track orders for zines and prints"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Client-side",
+      "items": [
+        "JavaScript (ES6)",
+        "TypeScript",
+        "React JS",
+        "HTML",
+        "CSS",
+        "Webpack"
+      ]
+    },
+    {
+      "name": "Server-side",
+      "items": [
+        "GraphQL",
+        "Next JS",
+        "Node JS",
+        "Express",
+        "MySQL",
+        "Redis",
+        "gRPC",
+        "PHP"
+      ]
+    },
+    {
+      "name": "Testing frameworks",
+      "items": ["Jest", "Cypress"]
+    },
+    {
+      "name": "CI/CD and DevOps",
+      "items": [
+        "GCP (Google Cloud Platform)",
+        "Kubernetes",
+        "Docker",
+        "Terraform"
+      ]
     }
   ]
 }

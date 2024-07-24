@@ -46,7 +46,7 @@
 \RequirePackage{hyperref}
 \urlstyle{same}
 
-\RequirePackage[margin=0.5in]{geometry}
+\RequirePackage[margin=0.75in]{geometry}
 
 \newcommand{\links}[4]{
   \href{#1}{#2} {\large\textperiodcentered} \href{#3}{#4}
